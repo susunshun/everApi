@@ -3,6 +3,7 @@ GEM
   specs:
     evernote (1.2.1)
       thrift_client (>= 0.8.1)
+    json (1.8.1)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -20,4 +21,5 @@ PLATFORMS
 
 DEPENDENCIES
   evernote
+  json
   sinatra
