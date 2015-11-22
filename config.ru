@@ -1,5 +1,5 @@
 require 'bundler'
 Bundler.require
 
-require 'app'
+require './everApi'
 run Sinatra::Application
