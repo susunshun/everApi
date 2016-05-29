@@ -18,7 +18,7 @@ end
 
 get '/random' do
     #デベロッパートークン
-    auth_token = "S=s1:U=91b5c:E=15877480ee1:C=1511f96df40:P=1cd:A=en-devtoken:V=2:H=dd73cdc1d04ff06afc122c887b0d81ed"
+    auth_token = "デベロッパートークン"
 
     #ノートのエンドポイントのURL
     note_store_url = "https://sandbox.evernote.com/shard/s1/notestore"
